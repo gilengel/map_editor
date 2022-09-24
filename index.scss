@@ -1,16 +1,16 @@
 @import "style";
 
 // Editor components
-@import "../rust_internal/src/ui/switch";
-@import "../rust_internal/src/ui/textbox";
-@import "../rust_editor/src/ui/panel";
-@import "../rust_editor/src/ui/dialog";
-@import "../rust_editor/src/ui/tooltip";
+@import "../chama/rust_internal/src/ui/switch";
+@import "../chama/rust_internal/src/ui/textbox";
+@import "../chama/rust_editor/src/ui/panel";
+@import "../chama/rust_editor/src/ui/dialog";
+@import "../chama/rust_editor/src/ui/tooltip";
 
 // Ribbon components
-@import "../plugin_ribbon/src/view/ribbon";
-@import "../plugin_ribbon/src/view/ribbon_tab";
-@import "../plugin_ribbon/src/view/ribbon_tab_group";
+@import "../chama/plugin_ribbon/src/view/ribbon";
+@import "../chama/plugin_ribbon/src/view/ribbon_tab";
+@import "../chama/plugin_ribbon/src/view/ribbon_tab_group";
 
 // Local plugins
 @import "src/plugins/reference_image";

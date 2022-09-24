@@ -13,18 +13,17 @@ categories = ["gui", "wasm", "web-programming"]
 [dependencies]
 
 # EditAll
-rust_editor = { path = "../rust_editor" }
-rust_macro = { path = "../rust_macro" }
-rust_internal = { path = "../rust_internal" }
+rust_editor = { path = "../chama/rust_editor" }
+rust_macro = { path = "../chama/rust_macro" }
+rust_internal = { path = "../chama/rust_internal" }
 
 # Plugins
-plugin_camera = { path = "../plugin_camera" }
-plugin_grid = { path = "../plugin_grid" }
-plugin_undo_redo = { path = "../plugin_undo_redo" }
-plugin_ribbon = { path = "../plugin_ribbon" }
-plugin_toolbar = { path = "../plugin_toolbar" }
-
-plugin_ui_components = { path = "../plugin_ui_components" }
+plugin_camera = { path = "../chama/plugin_camera" }
+plugin_grid = { path = "../chama/plugin_grid" }
+plugin_undo_redo = { path = "../chama/plugin_undo_redo" }
+plugin_ribbon = { path = "../chama/plugin_ribbon" }
+plugin_toolbar = { path = "../chama/plugin_toolbar" }
+plugin_ui_components = { path = "../chama/plugin_ui_components" }
 
 
 geo = { version = "0.21.0", features = ["use-serde"] }
